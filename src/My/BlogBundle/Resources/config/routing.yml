@@ -1,3 +1,7 @@
+blog_echo:
+    pattern:  /echo
+    defaults: { _controller: MyBlogBundle:Default:echo }
+
 blog_view_cache:
     pattern:  /cache/{id}
     defaults: { _controller: MyBlogBundle:Default:cacheView }

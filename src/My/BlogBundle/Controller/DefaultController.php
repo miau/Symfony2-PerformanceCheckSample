@@ -40,4 +40,9 @@ class DefaultController extends Controller
         return $response;
 	}
 
+	public function echoAction()
+	{
+		return $this->render('MyBlogBundle:Default:echo.html.twig');
+	}
+
 }
